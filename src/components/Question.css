@@ -1,0 +1,50 @@
+.one-question {
+    width: 500px;
+    color: orange;
+    border: 2px solid #3e5c76;
+}
+
+.one-question-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.one-question-main h2 {
+    font-size: 20px;
+}
+
+.one-question-main button {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 30%;
+    border: solid 1px orange;
+    transition: 0.3s all ease-in-out;
+}
+
+.one-question-main button:hover {
+    background-color: green;
+    color: red;
+    padding: 5px 10px;
+    border-radius: 20%;
+    border: solid 1px red;
+    cursor: pointer;
+}
+
+
+
+.one-question p {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+
+.question-icon {
+    font-size: 20px;
+    color: violet;
+}
