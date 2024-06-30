@@ -1,0 +1,32 @@
+.one-movie {
+    width: 289px;
+    text-align: center;
+    color: #e5e5e5;
+    box-shadow: 0px 0px 15px #9FC131;
+    padding: 10px;
+    transition: 0.3s all ease-in-out;
+    text-shadow: 0px 0px 10px #9FC131;
+}
+
+.one-movie:hover {
+    box-shadow: 0px 0px 25px #962fd2;
+    text-shadow: 5px 5px 10px #962fd2;
+}
+
+.one-movie img {
+    width: 283px;
+    height: 160px;
+}
+
+.one-movie button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    color: #9FC131;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+
+.one-movie button:hover {
+    color: #962fd2;
+}
